@@ -83,3 +83,13 @@ int getSensor(int sensor)
 
     return result;
 }
+
+void printSensorValue(int sensor)
+{
+    printf("%d\n", getSensor(sensor));
+}
+
+void print(const char *str)
+{
+    printf(str);
+}
