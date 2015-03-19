@@ -1,0 +1,6 @@
+@echo off
+echo Initializing environment...
+call "%~dp0\..\scripts\path.bat"
+echo Running program...
+cd "%~dp0\..\converter\python"
+python processor.py %1
